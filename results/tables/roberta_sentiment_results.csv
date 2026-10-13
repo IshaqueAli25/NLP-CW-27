@@ -1,0 +1,2 @@
+model,task,validation_macro_f1,test_macro_f1,validation_precision,test_precision,validation_recall,test_recall,validation_accuracy,test_accuracy
+RoBERTa-base,Sentiment,0.9360859266519643,0.8886829595653156,0.9360351163740303,0.8889296064583943,0.9362132352941177,0.8890635261631179,0.9361022364217252,0.8886852954649564

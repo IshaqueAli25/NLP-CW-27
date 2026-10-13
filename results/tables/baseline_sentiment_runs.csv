@@ -1,0 +1,4 @@
+model,task,seed,val_macro_f1,test_macro_f1
+TF-IDF + Logistic Regression,Sentiment,42,0.8433481436086001,0.8191862665130633
+TF-IDF + Logistic Regression,Sentiment,7,0.8433481436086001,0.8191862665130633
+TF-IDF + Logistic Regression,Sentiment,100,0.8433481436086001,0.8191862665130633

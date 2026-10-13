@@ -1,0 +1,7 @@
+Task: sarcasm_au_au+all en-IN
+majority_class: 0
+majority_proportion: 0.9314
+baseline_accuracy: 0.9314
+baseline_macro_f1: 0.4822
+model_macro_f1: 0.5344
+verdict: PASS — model beats majority baseline by 0.0522

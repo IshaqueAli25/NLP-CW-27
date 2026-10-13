@@ -1,0 +1,301 @@
+{
+  "task": "Q3 \u2014 Transformer cross-variety sarcasm evaluation on BESSTIE test set",
+  "source_dir": "results/predictions_otter24/",
+  "varieties": [
+    "en-UK",
+    "en-AU",
+    "en-IN"
+  ],
+  "class_names": [
+    "non-sarcastic",
+    "sarcastic"
+  ],
+  "models": {
+    "roberta_sarcasm_enAU": {
+      "csv_source": "results/predictions_otter24\\roberta_sarcasm_enAU_predictions.csv",
+      "overall_macro_f1": 0.6448,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6359,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.7373,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.532,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "roberta_sarcasm_enIN": {
+      "csv_source": "results/predictions_otter24\\roberta_sarcasm_enIN_predictions.csv",
+      "overall_macro_f1": 0.4624,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.4803,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.4139,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.4822,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "roberta_sarcasm_enUK": {
+      "csv_source": "results/predictions_otter24\\roberta_sarcasm_enUK_predictions.csv",
+      "overall_macro_f1": 0.5955,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6726,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.5354,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.6039,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "roberta_sarcasm_pooled": {
+      "csv_source": "results/predictions_otter24\\roberta_sarcasm_pooled_predictions.csv",
+      "overall_macro_f1": 0.627,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6913,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.5903,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.5796,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "sarcasm_au_au+all": {
+      "csv_source": "results/predictions_otter24\\sarcasm_au_au+all_predictions.csv",
+      "overall_macro_f1": 0.6665,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6188,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.7566,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.5344,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "sarcasm_au_au+in": {
+      "csv_source": "results/predictions_otter24\\sarcasm_au_au+in_predictions.csv",
+      "overall_macro_f1": 0.6841,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6342,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.7583,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.5259,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "sarcasm_au_au+uk": {
+      "csv_source": "results/predictions_otter24\\sarcasm_au_au+uk_predictions.csv",
+      "overall_macro_f1": 0.6641,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6926,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.6736,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.5953,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "sarcasm_bert_pooled": {
+      "csv_source": "results/predictions_otter24\\sarcasm_bert_pooled_predictions.csv",
+      "overall_macro_f1": 0.6604,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6947,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.6567,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.5683,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "sarcasm_distilbert_pooled": {
+      "csv_source": "results/predictions_otter24\\sarcasm_distilbert_pooled_predictions.csv",
+      "overall_macro_f1": 0.6015,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.625,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.5809,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.5503,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "sarcasm_roberta_enAU": {
+      "csv_source": "results/predictions_otter24\\sarcasm_roberta_enAU_predictions.csv",
+      "overall_macro_f1": 0.6448,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6359,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.7373,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.532,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "sarcasm_roberta_enIN": {
+      "csv_source": "results/predictions_otter24\\sarcasm_roberta_enIN_predictions.csv",
+      "overall_macro_f1": 0.4624,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.4803,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.4139,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.4822,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "sarcasm_roberta_enUK": {
+      "csv_source": "results/predictions_otter24\\sarcasm_roberta_enUK_predictions.csv",
+      "overall_macro_f1": 0.547,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6265,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.4758,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.5763,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    },
+    "sarcasm_roberta_pooled": {
+      "csv_source": "results/predictions_otter24\\sarcasm_roberta_pooled_predictions.csv",
+      "overall_macro_f1": 0.6788,
+      "overall_baseline_macro_f1": 0.4624,
+      "per_variety": {
+        "en-UK": {
+          "macro_f1": 0.6737,
+          "support": 700,
+          "baseline_macro_f1": 0.4803
+        },
+        "en-AU": {
+          "macro_f1": 0.7451,
+          "support": 667,
+          "baseline_macro_f1": 0.4139
+        },
+        "en-IN": {
+          "macro_f1": 0.5698,
+          "support": 816,
+          "baseline_macro_f1": 0.4822
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+Model,Test,Macro-F1,Sarcasm Recall,Strategy
+RoBERTa variety-specific (en-UK),en-UK,0.6265,0.1887,"Variety-specific, class-weighted"
+RoBERTa variety-specific (en-UK),en-AU,0.4758,0.0714,"Variety-specific, class-weighted"
+RoBERTa variety-specific (en-UK),en-IN,0.5763,0.1964,"Variety-specific, class-weighted"
+RoBERTa variety-specific (en-AU),en-UK,0.6373,0.8302,"Variety-specific, class-weighted"
+RoBERTa variety-specific (en-AU),en-AU,0.7355,0.5714,"Variety-specific, class-weighted"
+RoBERTa variety-specific (en-AU),en-IN,0.5328,0.5893,"Variety-specific, class-weighted"
+RoBERTa variety-specific (en-IN),en-UK,0.4803,0.0,"Variety-specific, class-weighted"
+RoBERTa variety-specific (en-IN),en-AU,0.4139,0.0,"Variety-specific, class-weighted"
+RoBERTa variety-specific (en-IN),en-IN,0.4822,0.0,"Variety-specific, class-weighted"
+RoBERTa AU-assisted (AU+UK),en-UK,0.6947,0.5283,AU as sarcasm donor
+RoBERTa AU-assisted (AU+UK),en-AU,0.675,0.3929,AU as sarcasm donor
+RoBERTa AU-assisted (AU+UK),en-IN,0.5953,0.4464,AU as sarcasm donor
+RoBERTa AU-assisted (AU+IN),en-UK,0.6342,0.8868,AU as sarcasm donor
+RoBERTa AU-assisted (AU+IN),en-AU,0.7612,0.7041,AU as sarcasm donor
+RoBERTa AU-assisted (AU+IN),en-IN,0.5259,0.1964,AU as sarcasm donor
+RoBERTa AU-assisted (AU+ALL),en-UK,0.6188,0.9057,AU as sarcasm donor
+RoBERTa AU-assisted (AU+ALL),en-AU,0.7543,0.7806,AU as sarcasm donor
+RoBERTa AU-assisted (AU+ALL),en-IN,0.5335,0.4286,AU as sarcasm donor
+RoBERTa en-AU (t=0.50),en-UK,0.6373,0.8302,Pooled + prefix + threshold tuning
+RoBERTa en-AU (t=0.50),en-AU,0.7355,0.5714,Pooled + prefix + threshold tuning
+RoBERTa en-AU (t=0.50),en-IN,0.5328,0.5893,Pooled + prefix + threshold tuning
+Pooled+Prefix (t=0.25),en-UK,0.6809,0.7736,Pooled + prefix + threshold tuning
+Pooled+Prefix (t=0.25),en-AU,0.7309,0.8112,Pooled + prefix + threshold tuning
+Pooled+Prefix (t=0.25),en-IN,0.5922,0.2143,Pooled + prefix + threshold tuning
+BERT-base,en-UK,0.6427,0.2951,Pooled + prefix + threshold tuning
+BERT-base,en-AU,0.6427,0.2951,Pooled + prefix + threshold tuning
+BERT-base,en-IN,0.6427,0.2951,Pooled + prefix + threshold tuning

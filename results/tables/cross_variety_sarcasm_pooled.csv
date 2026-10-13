@@ -1,0 +1,4 @@
+model,test_variety,macro_f1,sarcasm_f1,sarcasm_recall
+Pooled+Prefix (t=0.15),en-UK,0.6486,0.3333,0.2264
+Pooled+Prefix (t=0.15),en-AU,0.7752,0.6835,0.6888
+Pooled+Prefix (t=0.15),en-IN,0.5458,0.1333,0.0893

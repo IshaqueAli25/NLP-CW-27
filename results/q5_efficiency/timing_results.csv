@@ -1,0 +1,7 @@
+condition,mean_ms,median_ms,std_ms,p95_ms,n_runs
+base_cpu_single,495.394,492.287,23.264,545.011,10
+base_cpu_batch8,5881.34,5773.728,252.776,6350.015,10
+base+LoRA-en-UK_cpu_single,535.34,526.726,36.223,612.002,10
+base+LoRA-en-UK_cpu_batch8,6180.435,6151.599,171.765,6450.953,10
+adapter_swap_cpu,7.465,7.175,1.243,9.299,10
+adapter_full_reload_cpu,289.212,295.165,25.269,310.973,3

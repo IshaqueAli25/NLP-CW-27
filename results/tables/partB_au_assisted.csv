@@ -1,0 +1,10 @@
+experiment,test_variety,macro_f1,sarcasm_recall
+AU+UK,en-UK,0.6947,0.5283
+AU+UK,en-AU,0.675,0.3929
+AU+UK,en-IN,0.5953,0.4464
+AU+IN,en-UK,0.6342,0.8868
+AU+IN,en-AU,0.7612,0.7041
+AU+IN,en-IN,0.5259,0.1964
+AU+ALL,en-UK,0.6188,0.9057
+AU+ALL,en-AU,0.7543,0.7806
+AU+ALL,en-IN,0.5335,0.4286

@@ -1,0 +1,5 @@
+Model,Test en-UK,Test en-AU,Test en-IN,Note
+Variety-specific: en-UK,0.6726025498891353,0.535440930540916,0.6039426523297491,Severe imbalance (sarcastic weight ~6.5)
+Variety-specific: en-AU,0.63725768321513,0.7355273592386995,0.5328264445682163,Best variety-specific model
+Variety-specific: en-IN,0.4803266518188567,0.413884007029877,0.48223350253807107,Extreme imbalance (weight ~7.4)
+Pooled + Prefix (threshold=0.15),0.6486,0.7752,0.5458,All varieties combined; threshold tuned on val set

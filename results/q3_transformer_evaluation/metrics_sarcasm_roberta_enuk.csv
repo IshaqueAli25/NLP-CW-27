@@ -1,0 +1,4 @@
+class,precision,recall,f1,support
+non-sarcastic,0.8709,0.9696,0.9176,1878
+sarcastic,0.3804,0.1148,0.1763,305
+Macro Average,0.6257,0.5422,0.547,2183

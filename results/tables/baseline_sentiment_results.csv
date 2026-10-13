@@ -1,0 +1,2 @@
+model,task,validation_macro_f1,test_macro_f1,validation_precision,test_precision,validation_recall,test_recall
+TF-IDF + Logistic Regression,Sentiment,0.8433481436086001,0.8191862665130633,0.8434128800261523,0.8200159081104401,0.8433006535947712,0.8189661398714394

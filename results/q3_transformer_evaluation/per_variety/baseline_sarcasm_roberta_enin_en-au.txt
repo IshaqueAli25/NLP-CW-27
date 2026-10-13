@@ -1,0 +1,7 @@
+Task: sarcasm_roberta_enIN en-AU
+majority_class: 0
+majority_proportion: 0.7061
+baseline_accuracy: 0.7061
+baseline_macro_f1: 0.4139
+model_macro_f1: 0.4139
+verdict: FAIL — model does NOT beat majority baseline (diff 0.0000)

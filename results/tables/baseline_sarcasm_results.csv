@@ -1,0 +1,2 @@
+model,task,validation_macro_f1,test_macro_f1,validation_precision,test_precision,validation_recall,test_recall
+TF-IDF + Logistic Regression,Sarcasm,0.4612736660929432,0.4621828036462183,0.42948717948717946,0.4300779458963778,0.49814126394052044,0.4994675186368477

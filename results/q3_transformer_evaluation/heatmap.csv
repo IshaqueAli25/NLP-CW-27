@@ -1,0 +1,14 @@
+model,en-UK,en-AU,en-IN
+roberta_sarcasm_enAU,0.6359,0.7373,0.532
+roberta_sarcasm_enIN,0.4803,0.4139,0.4822
+roberta_sarcasm_enUK,0.6726,0.5354,0.6039
+roberta_sarcasm_pooled,0.6913,0.5903,0.5796
+sarcasm_au_au+all,0.6188,0.7566,0.5344
+sarcasm_au_au+in,0.6342,0.7583,0.5259
+sarcasm_au_au+uk,0.6926,0.6736,0.5953
+sarcasm_bert_pooled,0.6947,0.6567,0.5683
+sarcasm_distilbert_pooled,0.625,0.5809,0.5503
+sarcasm_roberta_enAU,0.6359,0.7373,0.532
+sarcasm_roberta_enIN,0.4803,0.4139,0.4822
+sarcasm_roberta_enUK,0.6265,0.4758,0.5763
+sarcasm_roberta_pooled,0.6737,0.7451,0.5698

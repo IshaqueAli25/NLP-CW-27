@@ -1,0 +1,108 @@
+{
+  "task": "Q3 \u2014 LoRA cross-variety sarcasm evaluation on BESSTIE test set",
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "class_names": [
+    "non-sarcastic",
+    "sarcastic"
+  ],
+  "adapters_evaluated": [
+    "en-UK_seed42",
+    "en-AU_seed42"
+  ],
+  "varieties": {
+    "en-UK": {
+      "csv_source": "results/predictions/lora_en_uk_sarcasm_predictions.csv",
+      "task_name": "LoRA en-UK Sarcasm",
+      "adapter": "en-UK_seed42",
+      "metrics": [
+        {
+          "class": "non-sarcastic",
+          "precision": 0.9537,
+          "recall": 0.9227,
+          "f1": 0.9379,
+          "support": 647
+        },
+        {
+          "class": "sarcastic",
+          "precision": 0.3243,
+          "recall": 0.4528,
+          "f1": 0.378,
+          "support": 53
+        },
+        {
+          "class": "Macro Average",
+          "precision": 0.639,
+          "recall": 0.6878,
+          "f1": 0.6579,
+          "support": 700
+        }
+      ],
+      "confusion_matrix": {
+        "actual_non-sarcastic": {
+          "pred_non-sarcastic": 597,
+          "pred_sarcastic": 50
+        },
+        "actual_sarcastic": {
+          "pred_non-sarcastic": 29,
+          "pred_sarcastic": 24
+        }
+      },
+      "majority_baseline": {
+        "majority_class": 0,
+        "majority_proportion": 0.9243,
+        "baseline_accuracy": 0.9243,
+        "baseline_macro_f1": 0.4803
+      },
+      "model_macro_f1": 0.6579,
+      "macro_f1_lift_over_baseline": 0.1776,
+      "verdict": "PASS \u2014 beats majority baseline by 0.1776"
+    },
+    "en-AU": {
+      "csv_source": "results/predictions/lora_en_au_sarcasm_predictions.csv",
+      "task_name": "LoRA en-AU Sarcasm",
+      "adapter": "en-AU_seed42",
+      "metrics": [
+        {
+          "class": "non-sarcastic",
+          "precision": 0.8684,
+          "recall": 0.8408,
+          "f1": 0.8544,
+          "support": 471
+        },
+        {
+          "class": "sarcastic",
+          "precision": 0.6445,
+          "recall": 0.6939,
+          "f1": 0.6683,
+          "support": 196
+        },
+        {
+          "class": "Macro Average",
+          "precision": 0.7565,
+          "recall": 0.7673,
+          "f1": 0.7613,
+          "support": 667
+        }
+      ],
+      "confusion_matrix": {
+        "actual_non-sarcastic": {
+          "pred_non-sarcastic": 396,
+          "pred_sarcastic": 75
+        },
+        "actual_sarcastic": {
+          "pred_non-sarcastic": 60,
+          "pred_sarcastic": 136
+        }
+      },
+      "majority_baseline": {
+        "majority_class": 0,
+        "majority_proportion": 0.7061,
+        "baseline_accuracy": 0.7061,
+        "baseline_macro_f1": 0.4139
+      },
+      "model_macro_f1": 0.7613,
+      "macro_f1_lift_over_baseline": 0.3474,
+      "verdict": "PASS \u2014 beats majority baseline by 0.3474"
+    }
+  }
+}

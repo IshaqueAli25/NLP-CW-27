@@ -1,0 +1,7 @@
+Task: roberta_sarcasm_enAU en-IN
+majority_class: 0
+majority_proportion: 0.9314
+baseline_accuracy: 0.9314
+baseline_macro_f1: 0.4822
+model_macro_f1: 0.532
+verdict: WEAK — model only beats baseline by 0.0498

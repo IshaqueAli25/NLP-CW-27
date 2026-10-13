@@ -1,0 +1,10 @@
+train_variety,test_variety,macro_f1,sarcasm_recall,sarcasm_f1
+en-UK,en-UK,0.6265,0.1887,0.2899
+en-UK,en-AU,0.4758,0.0714,0.1261
+en-UK,en-IN,0.5763,0.1964,0.2075
+en-AU,en-UK,0.6373,0.8302,0.3911
+en-AU,en-AU,0.7355,0.5714,0.6154
+en-AU,en-IN,0.5328,0.5893,0.23
+en-IN,en-UK,0.4803,0.0,0.0
+en-IN,en-AU,0.4139,0.0,0.0
+en-IN,en-IN,0.4822,0.0,0.0
