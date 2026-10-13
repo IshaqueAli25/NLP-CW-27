@@ -1,0 +1,28 @@
+# PG27 NLP Coursework — pinned dependencies
+# pinned to the exact versions used during development (Sessions 4-12)
+# so cloning the repo and running pip install gives a working stack
+
+# core ML / training
+torch==2.11.0
+transformers==5.7.0
+peft==0.19.1
+accelerate==1.13.0
+sentencepiece==0.2.1
+
+# data + dataset loading
+datasets==4.8.5
+pandas==3.0.2
+numpy==2.4.4
+
+# classical ML baselines (Q2.1)
+scikit-learn==1.8.0
+
+# plotting / confusion matrices / heatmaps
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# Q5.1 deployment app
+gradio==6.14.0
+
+# Q1.2 vocabulary analysis (POS tagging — Mir's section)
+spacy

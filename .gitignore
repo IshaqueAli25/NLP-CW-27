@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (optional - if large)
+data/raw/*.csv
+
+# Transformers checkpoints
+results/checkpoints/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# OS
+.DS_Store
+Thumbs.db
+
+venv/
+.venv/
+.vscode/
+adapters/
+
+# Gradio runtime cache
+.gradio/
+
+# Graded artefacts (submit separately on SurreyLearn, not via repo)
+PG27_Q3_Q5.docx
+PG27_Q3_Q5.pdf
+report_PG27.pdf
+
+# working session folders (local only, not for submission)
+New folder/
+_from_new_branch/
+adapters_hf/
+*.bak
+*.bak2
+*.bak3
+~$*.docx
